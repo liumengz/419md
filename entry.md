@@ -52,7 +52,7 @@ $ ./CubicStylization {model.obj}
 **Input model:** examples of input models are stored in `data` folder. Enter the name of the `.obj` file as parameter.
 To add a new model, store it under `data` folder, or change the input path at `main.cpp`
 
-**Output**: Output cubic style models will be shown using `libigl viewer`, and output files will also be stored in the project directory as `output{filename}.obj`
+**Output**: Output cubic style models will be shown using `libigl viewer`. Uncomment `writeOBJ("../output", data.Vbar, F);` in `main.cpp` to store the output model under the project directory as `output.obj`
 
 
 ## Examples 
