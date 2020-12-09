@@ -8,7 +8,7 @@ Mengze Liu (UTORid: liumengz)
 Cubic Stylization is a 3D stylization algorithm presented by Hsueh-Ti Derek Liu and Alec Jacobson in [Cubic Stylization Paper](https://www.dgp.toronto.edu/projects/cubic-stylization/cubicStyle_high.pdf)
 The main purpose of this algorithm is to turn an input 3D model into a cubic style model
 
-![bunny example](bunnyExample.PNG)
+![bunny example](entry-jpg/bunnyExample.PNG)
 ## Our Implementation
 The core of this cubic stylization algorithm is to minimize an energy function. Therefore, we need to first initialize values, which is implemented in `cubic_style_precomputation.cpp`, and then perform updates in each iteration, which is implemented in `cubic_style_single_iteration.cpp` and `local_step.cpp`. We divided a single iteration into two parts because local step has many intermediate values, and it will be clearer if local step is in a single file.
 The algorithm was very slow at the beginning, even through the stopping criteria (relative displacement) was implemented. After reading the book **"Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers"** in **page 19**, we found a stopping criteria for local step, which made our algorithm faster
@@ -58,19 +58,19 @@ To add a new model, store it under `data` folder, or change the input path at `m
 ## Examples 
 input elephant:
 
-![elephant example](elephant-input.jpg)
+![elephant example](entry-jpg/elephant-input.jpg)
 
 output:
 
-![elephanto example](elephant-output.jpg)
+![elephanto example](entry-jpg/elephant-output.jpg)
 
 
 input beetle
 
-![beetle example](beetle-input.jpg)
+![beetle example](entry-jpg/beetle-input.jpg)
 
 output
 
-![beetleo example](beetle-output.jpg)
+![beetleo example](entry-jpg/beetle-output.jpg)
 
 
