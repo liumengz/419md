@@ -58,18 +58,18 @@ To add a new model, store it under `data` folder, or change the input path at `m
 ## Examples 
 input elephant:
 
-![elephant example](elephant input.jpg)
+![elephant example](elephant-input.jpg)
 
 output:
 
-![elephanto example](elephant output.jpg)
+![elephanto example](elephant-output.jpg)
 
 
 input beetle
 
-![beetle example](beetle input.jpg)
+![beetle example](beetle-input.jpg)
 
 output
-![beetleo example](beetle output.jpg)
+![beetleo example](beetle-output.jpg)
 
 
