@@ -70,6 +70,7 @@ input beetle
 ![beetle example](beetle-input.jpg)
 
 output
+
 ![beetleo example](beetle-output.jpg)
 
 
